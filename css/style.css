@@ -126,3 +126,11 @@ main img{
     padding: 5px 7px;
 }
 
+.heart{
+    display: flex;
+    position: absolute;
+    background-color: white;
+    padding: 12px 12px;
+    right: 0px;
+    top: 10px
+}
