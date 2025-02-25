@@ -2,10 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-.bg-gold{
-    background-color: goldenrod;
+    font-family: 'Gill Sans', sans-serif;
 }
 
 /* Utility */
@@ -26,6 +23,11 @@
     width: 1200px;
     margin: 0 auto;
 }
+
+.my-25{
+    margin: 40px auto;
+}
+
 /* Header */
 header{
     display: flex;
@@ -62,3 +64,40 @@ header img{
 }
 
 /* Main */
+main > div{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.container{
+    width: 30%;
+    margin: 10px 10px;
+}
+
+main img{
+    object-fit: contain;
+    width: 100%;
+    height: 90%;
+}
+
+.brand{
+    font-size: 15px;
+}
+
+.product-title{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.product-price{
+    color: red;
+    font-weight: 600;
+    margin-right: 5px;
+    font-size: 13px;
+}
+
+.product-price-discount{
+    text-decoration: line-through;
+    font-size: 13px;
+}
