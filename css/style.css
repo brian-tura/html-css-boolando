@@ -73,6 +73,7 @@ main > div{
 .container{
     width: 30%;
     margin: 10px 10px;
+    position: relative;
 }
 
 main img{
@@ -100,4 +101,15 @@ main img{
 .product-price-discount{
     text-decoration: line-through;
     font-size: 13px;
+}
+
+.discount{
+    position: absolute;
+    background-color: red;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    top: 77%;
+
 }
