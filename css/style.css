@@ -25,7 +25,7 @@
 }
 
 .my-25{
-    margin: 40px auto;
+    margin: 25px auto;
 }
 
 /* Header */
@@ -64,6 +64,7 @@ header img{
 }
 
 /* Main */
+    /* Product images and structure */
 main > div{
     display: flex;
     flex-wrap: wrap;
@@ -72,7 +73,7 @@ main > div{
 
 .container{
     width: 30%;
-    margin: 10px 10px;
+    margin: 20px 10px;
     position: relative;
 }
 
@@ -103,13 +104,25 @@ main img{
     font-size: 13px;
 }
 
-.discount{
+
+    /* Extra product info */
+.extra-info{
+    display: flex;
     position: absolute;
-    background-color: red;
-    padding: 5px 10px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
     color: white;
-    top: 77%;
-
+    top: 80%;
 }
+
+.discount{
+    background-color: red;
+    padding: 5px 7px;
+    margin-right: 5px;
+}
+
+.sostenibilità{
+    background-color: green;
+    padding: 5px 7px;
+}
+
